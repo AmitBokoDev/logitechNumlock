@@ -1,2 +1,6 @@
 @echo off
-start /b pythonw.exe "C:\path\to\numlock.py"
+echo Starting numlock.py script...
+start /b pythonw numlock.py
+echo Starting system tray icon...
+start /b pythonw tray.py
+exit
